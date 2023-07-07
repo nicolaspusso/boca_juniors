@@ -457,13 +457,13 @@ li {
 
 .img-cam-oficial {
     left: 28%;
-    padding: 0px 0px 0px 27%;
+    padding: 0px 0px 0px 16%;
     box-sizing: content-box;
 
 }
 
 .item .img-cam-oficial{
-    width: 200px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
