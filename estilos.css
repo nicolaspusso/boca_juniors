@@ -6,7 +6,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    line-height: normal;
   }
+
+
 
 .header {
     background-color: #003391;
@@ -275,13 +278,11 @@ ul {
     list-style: none;
     font-size: 0;
     padding: 0px 15%;
-    background-color:rgb(1, 25, 132) ;
+    background-color:rgb(1, 25, 132);
 }
 
 @media (max-width: 1300px) {
-    ul {
-        padding: 0%;
-    }
+    
 }
 
 
@@ -331,6 +332,7 @@ li {
     font-size: 20px;
     font-weight: 400;
     color: white;
+    margin: 0;
 }
 
 .fechas-contenedor {
