@@ -6,31 +6,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: normal;
-  }
-
-
-
-.header {
-    background-color: #003391;
-    padding: 10px 0 10px 12%;  
 }
 
-.sticky-header {
+.header-principal {
+    background-color: #003391;
+    padding: 15px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sticky {
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.sticky-menu {
-    position: sticky;
-    top: 106px;
-    z-index: 1;
-}
-
-
 .logo-inicio {
-
     display: inline;
     width: 60px;
     height: 60px;
@@ -38,15 +29,10 @@
 }
 
 .logo-adidas {
-    position: absolute;
-    left: 83%;
-    width: 90px;
     height: 90px;
-    color: #e5e5e5;
-
 }
 
-.titulo{ 
+.titulo {
     color: white;
     display: inline-block;
     position: relative;
@@ -54,8 +40,7 @@
     right: 10px;
 }
 
-.texto-titulo2 {
-    font-family: 'Montserrat', sans-serif;
+.texto-titulo2 {    
     font-size: 25px;
     font-weight: bold;
     position: relative;
@@ -64,7 +49,6 @@
 
 .texto-titulo {
     font-size: 21px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
 }
 
@@ -77,12 +61,12 @@
     width: 100%;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(141, 141, 141);
-  }
+}
 
 .sombra-img-inicio {
-   display: flex;
-   flex-direction: row;
-   box-shadow: 0px 10px 10px rgb(193, 193, 193);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 10px 10px rgb(193, 193, 193);
 }
 
 .img-inicio {
@@ -97,49 +81,49 @@
 }
 
 .calendario {
-    
+
     display: inline-block;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .partido {
+}
+
+.partido {
     display: inline-block;
     align-items: center;
     margin-bottom: 10px;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 50px;
     height: 50px;
     margin-right: 10px;
-  }
-  
-  .resultado {
-    font-weight: bold;
-  }
+}
 
-  .noticias{
+.resultado {
+    font-weight: bold;
+}
+
+.noticias {
     display: inline;
     text-align: left;
-    
-  }
 
-.body-register{
+}
+
+.body-register {
     background-image: url(imagenes/fondo\ register2.png);
-  }
+}
 
 .logo-registrate {
- display: flex;
- justify-content: center;
- padding: 30px;
- 
-} 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
 
 .img-registrate {
     width: 120px;
     height: 120px;
-   
+
 }
 
 
@@ -168,7 +152,7 @@
     margin: 5px;
     font-size: 15px;
     padding-left: 40px;
-} 
+}
 
 .user {
     width: 26px;
@@ -180,12 +164,12 @@
 }
 
 .lock {
-   width: 26px;
-   height: 26px;
-   position: absolute;
+    width: 26px;
+    height: 26px;
+    position: absolute;
     top: 521.5px;
     left: 770px;
-   filter: contrast(0%) sepia(1) hue-rotate(2000deg) saturate(1000%);
+    filter: contrast(0%) sepia(1) hue-rotate(2000deg) saturate(1000%);
 }
 
 .formulario-contra {
@@ -197,27 +181,27 @@
     margin: 5px 5px 3px 5px;
     font-size: 15px;
     padding-left: 40px;
-} 
+}
 
 .contenedor-registrate {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.container-mostrar-contra{
+.container-mostrar-contra {
     padding-left: 5px;
 }
 
-.mostrar-contra{
+.mostrar-contra {
     position: relative;
     top: 2px;
 }
 
-.p-mostrar-contra{
+.p-mostrar-contra {
     font-size: 12px;
     color: #ffd335;
-   text-align: center;
+    text-align: center;
 }
 
 .boton-registrate {
@@ -244,11 +228,11 @@
     font-size: 13px;
     color: #f9c715;
     gap: 45px;
-    margin: 0px 0px 0px 45px;
+    margin-left: 45px;
     cursor: pointer;
 }
 
-.terminos{
+.terminos {
     text-align: center;
     font-size: 11px;
     font-weight: 500;
@@ -257,18 +241,18 @@
     cursor: pointer;
 }
 
-.terminos:hover{
+.terminos:hover {
     text-decoration: underline;
 }
 
-.focus-visible{
+.focus-visible {
     position: relative;
     left: 1800px;
     top: 45px;
     filter: contrast(70%) sepia(1) hue-rotate(190deg) saturate(1000%);
 }
 
-.focus-visible:hover{
+.focus-visible:hover {
     filter: contrast(80%) sepia(1) hue-rotate(190deg) saturate(1000%);
 }
 
@@ -278,23 +262,20 @@ ul {
     list-style: none;
     font-size: 0;
     padding: 0px 15%;
-    background-color:rgb(1, 25, 132);
+    background-color: rgb(1, 25, 132);
 }
 
-@media (max-width: 1300px) {
-    
-}
+@media (max-width: 1300px) {}
 
 
 li {
-    display:inline-block;
+    display: inline-block;
     width: 20%;
     position: relative;
     overflow: hidden;
 }
 
-.link-menu{
-    font-family:'Montserrat', sans-serif;
+.link-menu {    
     font-size: 15px;
     text-align: center;
     display: block;
@@ -313,26 +294,24 @@ li {
 .link-menu:hover {
     background-color: #f2c110;
     scale: 1.2;
-    color: rgb(5, 0, 106);
-    font-family:'Montserrat', sans-serif;
+    color: rgb(5, 0, 106);    
     font-weight: 500;
 }
 
 
 /* mod menu finalizado */
 
-.contenedor-titulofechas{
+.contenedor-titulofechas {
     background-color: rgb(1, 25, 132);
     box-shadow: 10px 0px 10px rgb(116, 116, 116);
+    margin-top: 50px;
 }
 
 .fechas-titulo {
-    font-family:'Montserrat', sans-serif;
-    padding: 15px 200px;
+    padding: 15px;
     font-size: 20px;
     font-weight: 400;
     color: white;
-    margin: 0;
 }
 
 .fechas-contenedor {
@@ -342,11 +321,10 @@ li {
     padding: 0px 3%;
     overflow-x: auto;
     display: grid;
+    color: white;
 }
 
-@media (max-width: 920px) {
-    
-}
+@media (max-width: 920px) {}
 
 .img-fechas {
     width: 90px;
@@ -390,14 +368,13 @@ li {
     text-align: center;
     height: 400px;
     margin: 20px;
-  } 
+}
 
-
-  .partido {
+.partido {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
 
 /* TIENDA CSS ESTILOS */
 
@@ -406,76 +383,72 @@ li {
     color: white;
     padding: 20px;
     text-align: center;
-  }
-  
-  .titulo-tienda {
+}
+
+.titulo-tienda {
     font-size: 32px;
-    margin: 0;
-  }
-  
-  .titulo-tienda-producto {
+}
+
+.titulo-tienda-producto {
     font-size: 24px;
-    margin: 0px;
-  }
-  
-  
-  .p-producto {
+}
+
+.p-producto {
     margin-bottom: 10px;
-  }
-  
-  
-  .footer-tienda {
+}
+
+.footer-tienda {
     background-color: grey;
     padding: 20px;
     text-align: center;
-  }
-  
-  .logo-tienda {
+}
+
+.logo-tienda {
     width: 80px;
     height: 80px;
-  }
-  
-  .flex-tienda {
+}
+
+.flex-tienda {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .separacion-tienda {
+}
+
+.separacion-tienda {
     margin: 20px 100px;
     width: 200px;
     height: 300px;
     padding: 15px;
     border: 1px solid black;
-  }
-  
-  /* FINALIZO */
+}
+
+/* FINALIZO */
 
 /* TIENDA NUEVA PRUEBA */
 
-.container-items{
+.container-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin: 30px;
 }
 
-.item{
+.item {
     border-radius: 10px;
 }
 
-.item:hover{
+.item:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
 
 .img-cam-oficial {
     left: 28%;
-    padding: 0px 0px 0px 16%;
+    padding-left: 16%;
     box-sizing: content-box;
 
 }
 
-.item .img-cam-oficial{
+.item .img-cam-oficial {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -483,15 +456,15 @@ li {
     transition: all .5s;
 }
 
-.item figure{
+.item figure {
     overflow: hidden;
 }
 
-.item:hover .img-cam-oficial{
+.item:hover .img-cam-oficial {
     transform: scale(1.1);
 }
 
-.info-product{
+.info-product {
     padding: 15px 30px;
     line-height: 2;
     display: flex;
@@ -500,21 +473,18 @@ li {
     margin: 10px;
 }
 
-.titulo-producto{
-    font-family:'Montserrat', sans-serif;
+.titulo-producto {    
     font-weight: 400;
     font-size: 20px;
 }
 
-.price{
+.price {
     font-size: 18px;
-    font-weight: 900;
     color: #003391;
-    font-family:'Montserrat', sans-serif;
     font-weight: 600;
 }
 
-.info-product button{
+.info-product button {
     border: none;
     background: none;
     background-color: #00529B;
@@ -522,7 +492,6 @@ li {
     padding: 15px 10px;
     cursor: pointer;
     border-radius: 30px;
-    font-family:'Montserrat', sans-serif;
     font-size: 18px;
 }
 
