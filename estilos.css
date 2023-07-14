@@ -19,6 +19,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: white;
 }
 
 .logo-inicio {
@@ -110,6 +111,30 @@
 /* ARREGLANDO BOOTSTRAP */
 p, ul, h1 {
     margin-bottom: 0;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem !important;
+}
+
+.text-nav{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 15px 85px !important;
+}
+
+.navbar-toggler{
+    margin: 10px;
+}
+
+.text-nav:hover{
+    background-color: #f2c110;   
+    font-weight: 600;  
+}
+
+.nav-centrar{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* FIN   ARREGLANDO BOOTSTRAP */
@@ -269,7 +294,7 @@ p, ul, h1 {
 
 /* mod menu */
 
-ul {
+.ul-menu{
     list-style: none;
     font-size: 0;
     padding: 0px 15%;
@@ -277,7 +302,7 @@ ul {
 }
 
 
-li {
+.il-menu {
     display: inline-block;
     width: 20%;
     position: relative;
@@ -299,6 +324,7 @@ li {
     transition: 0.5s;
     object-fit: cover;
 }
+
 
 .link-menu:hover {
     background-color: #f2c110;
@@ -521,7 +547,7 @@ li {
 
 
 .noticias-titulo {
-    margin: 3% 0 2% 23.9%;
+    margin: 3% 0 2% 17%;
     color: #003391;
     font-size: 35px;
 }
@@ -529,34 +555,37 @@ li {
 .contenedor-noticiaprincipal {
     display: flex;
     justify-content: center;
+
 }
 
-
 .item-noticia-principal{
-    background-color: #003391;
+    background-color: #ffffff;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(134, 134, 134);
+    box-shadow: 0 0 10px rgb(189, 189, 189);
+    width: 70%;
+    height: 40%;
 }
 
 .p-noticiaprincipal {
-    margin: 5px 20px;
+    margin: 5px 20px 0 20px;
     font-weight: 700;
     font-size: 18px;
-    color: rgb(220, 220, 220);
+    color: rgb(33, 33, 33);
 }
 
 .p-noticiaprincipal2{
-    margin: 5px 30px 10px 30px;
-    font-weight: 400;
+    margin: 0 30px 10px 30px;
+    font-weight: 500;
     font-size: 14px;
-    color: rgb(220, 220, 220);
+    color: rgb(39, 39, 39);
 }
 
 .img-principal{
-    width: 1000px;
-    height: 390px;
+    /* width: 1282px;
+    height: 500px; */
+    width: 100%;
+    height: 85%;
 }
 
 .noticias-subtitulo {
@@ -571,14 +600,14 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin: 0 300px;
+    margin: 0 15%;
 }
 
 .p-noticias {
     margin: 3px 14px 10px 10px;
     font-weight: 700;
     font-size: 15px;
-    color: rgb(23, 23, 23);
+    color: rgb(29, 29, 29);
 }
 
 .item-noticias{
@@ -597,14 +626,123 @@ li {
     height: 250px;
 }
 
-
-
+.blanco {
+    color: white;
+}
 
 /* FIN   NOTICIAS PAGINA */
 
 
-@media (max-width: 1220px) {
-    ul {
+@media (max-width: 1300px) {
+    .text-nav {
+        padding: 15px 55px!important;
+    }
+    .container-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 990px) {
+    .contenedor-noticias{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .noticias-subtitulo{
+        margin: 5% 0 5% 0;
+    }
+    .noticias-titulo {
+        margin: 5% 0 5% 17%;
+    }
+    .p-noticiaprincipal2{
+        display: none;
+        margin: 40px;
+    }
+    .container-items {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .contenedor-noticias{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .noticias-subtitulo{
+        margin: 7% 0 7% 0;
+    }
+    .p-noticiaprincipal::after{
+        content: "hola";
+    }
+    .item-noticia-principal{
+        width: 80%;
+    }
+}
+
+@media (max-width: 540px){
+    .titulo{
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    .item .img-cam-oficial{
+        width: 100px;
+        height: 100px;
+    }
+    .item{
+        padding: 10px;
+    }
+    .titulo-producto{
+        font-size: 13px;
+        margin: 10px 0 0 0;
+    }
+    .price{
+        font-size: 13px;
+    }
+    .info-product{
+        margin: 0;
         padding: 0;
+    }
+    .info-product button{
+        font-size: 13px;
+        padding: 2px;
+    }
+    figure{
+        margin: 0;
+    }
+    .img-cam-oficial{
+        padding-left: 9% !important;
+    }
+}
+
+@media (max-width: 425px){
+    .item .img-cam-oficial{
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-cam-oficial{
+        padding-left: 25%;
+    }
+
+    .titulo-producto{
+        font-size: 13px;
+        margin: 10px 0 0 0;
+    }
+    .price{
+        font-size: 13px;
+    }
+    .info-product{
+        margin: 0;
+        padding: 0;
+    }
+    .info-product button{
+        font-size: 13px;
+        padding: 2px;
+    }
+    figure{
+        margin: 0;
+    }
+    .item{
+        padding: 10px;
     }
 }
