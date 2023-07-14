@@ -36,15 +36,15 @@
     color: white;
     display: inline-block;
     position: relative;
-    bottom: 15px;
-    right: 10px;
+    top: 25px;
+    right: 5px;
 }
 
 .texto-titulo2 {    
     font-size: 25px;
     font-weight: bold;
     position: relative;
-    bottom: 4px;
+    bottom: 10px;
 }
 
 .texto-titulo {
@@ -101,7 +101,18 @@
 
 .resultado {
     font-weight: bold;
+    font-weight: 700;
+    font-size: 20px;
+    color: #e5e5e5;
 }
+
+
+/* ARREGLANDO BOOTSTRAP */
+p, ul, h1 {
+    margin-bottom: 0;
+}
+
+/* FIN   ARREGLANDO BOOTSTRAP */
 
 .noticias {
     display: inline;
@@ -395,9 +406,10 @@ li {
 }
 
 .footer-tienda {
-    background-color:#1d293e;
+    background-color: #1d293e;
     padding: 20px;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .logo-tienda {
