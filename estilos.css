@@ -146,7 +146,7 @@ p, ul, h1 {
 }
 
 .body-register {
-    background-image: url(imagenes/fondo\ register2.png);
+    background: url("imagenes/fondo\ register2.png") no-repeat right top fixed;
 }
 
 .logo-registrate {
@@ -630,8 +630,8 @@ p, ul, h1 {
     color: white;
 }
 
-/* FIN   NOTICIAS PAGINA */
 
+/* FIN   NOTICIAS PAGINA */
 
 @media (max-width: 1300px) {
     .text-nav {
