@@ -745,4 +745,7 @@ p, ul, h1 {
     .item{
         padding: 10px;
     }
+    .br-tienda{
+        display: none;
+    }
 }
