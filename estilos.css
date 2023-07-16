@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;700&display=swap');
+@import 'animate.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -10,7 +11,7 @@
 
 .header-principal {
     background-color: #003391;
-    padding: 15px 15%;
+    padding: 0 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -23,34 +24,35 @@
 }
 
 .logo-inicio {
-    display: inline;
-    width: 60px;
-    height: 60px;
-    margin: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 0 5px 15px 0;
 }
 
 .logo-adidas {
     height: 90px;
+    width: 90px;
+    margin-top: 15px;
 }
 
 .titulo {
     color: white;
     display: inline-block;
     position: relative;
-    top: 25px;
+    top: 22px;
     right: 5px;
 }
 
 .texto-titulo2 {    
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
     position: relative;
-    bottom: 10px;
+    bottom: 12px;
 }
 
 .texto-titulo {
-    font-size: 21px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .body-inicio {
@@ -101,6 +103,7 @@
 }
 
 .resultado {
+
     font-weight: bold;
     font-weight: 700;
     font-size: 20px;
@@ -119,8 +122,8 @@ p, ul, h1 {
 
 .text-nav{
     font-size: 17px;
-    font-weight: 300;
-    padding: 15px 85px !important;
+    font-weight: 400;
+    padding: 12px 85px !important;
 }
 
 .navbar-toggler{
@@ -371,23 +374,24 @@ p, ul, h1 {
 }
 
 .img-arsenal {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: end;
     flex-direction: column;
-    margin: 35px 0 25px 0;
+    margin: 35px 0 60px 0;
     text-align: end;
 }
 
 .img-monagas {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: end;
     flex-direction: column;
-    margin: 35px 0 40px 0;
+    margin: 35px 0 60px 0;
     text-align: end;
+    padding-top: 10px;
 }
 
 .fechas {
