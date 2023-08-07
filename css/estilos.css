@@ -120,7 +120,7 @@ p, ul, h1 {
   font-weight: 400;
   padding: 12px 85px !important;
 }
-.text-nav::hover {
+.text-nav:hover {
   background-color: #f2c110;
   font-weight: 600;
 }
@@ -141,7 +141,12 @@ p, ul, h1 {
 }
 
 .body-register {
-  background: url("imagenes/fondo register2.png") no-repeat right top fixed;
+  /* background-image: url(../imagenes/fondo\ register4.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; */
+  background-color: #002e84;
 }
 
 .logo-registrate {
@@ -158,7 +163,10 @@ p, ul, h1 {
 .contenedor-formulario {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+}
+
+.contenedor-registro {
+  margin-top: 120px;
 }
 
 .formulario {
@@ -175,7 +183,7 @@ p, ul, h1 {
   justify-content: center;
   margin: 5px;
   font-size: 15px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .user {
@@ -204,12 +212,13 @@ p, ul, h1 {
   justify-content: center;
   margin: 5px 5px 3px 5px;
   font-size: 15px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .contenedor-registrate {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .container-mostrar-contra {
@@ -267,13 +276,14 @@ p, ul, h1 {
 }
 
 .focus-visible {
-  position: relative;
-  left: 1800px;
-  top: 45px;
   filter: contrast(70%) sepia(1) hue-rotate(190deg) saturate(1000%);
 }
 .focus-visible:hover {
   filter: contrast(80%) sepia(1) hue-rotate(190deg) saturate(1000%);
+}
+
+.contenedor-focus {
+  margin: 2% 0 0 95%;
 }
 
 /* mod menu */
@@ -640,7 +650,7 @@ p, ul, h1 {
     width: 80%;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .titulo {
     display: none;
   }
@@ -706,6 +716,26 @@ p, ul, h1 {
   }
   .br-tienda {
     display: none;
+  }
+  .formulario-email {
+    width: 340px;
+  }
+  .formulario-contra {
+    width: 340px;
+  }
+  .boton-registrate {
+    width: 340px;
+  }
+}
+@media (max-width: 370px) {
+  .formulario-email {
+    width: 300px;
+  }
+  .formulario-contra {
+    width: 300px;
+  }
+  .boton-registrate {
+    width: 300px;
   }
 }
 

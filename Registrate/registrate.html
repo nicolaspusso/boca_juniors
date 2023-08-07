@@ -5,29 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boca Juniors - Registrate</title>
-    <link rel="stylesheet" href="../estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../imagenes/logo.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body class="body-register">
+
+    <header class="sticky">
+        <div class="header-principal">
+          <div>
+            <a class="logo-link" href="../index.html">
+              <img class="logo-inicio" src="../imagenes/logo.png" alt="logo de boca">
+            </a>
+            <div class="titulo">
+              <p class="texto-titulo">Club Atlético</p>
+              <p class="texto-titulo2">BOCA JUNIORS</p>
+            </div>
+          </div>
+          <img class="logo-adidas" src="../imagenes/adidaslogo.png" alt="logo de adidas">
+        </div>
     
-<header class="contenedor-focus">
-    <a class="focus-visible" href="../index.html" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAfhJREFUWEftmOExRTEQhc+rABWgAlSADqgAFaACVIAKUMHTASpAB3RABcxnbkwmN9ls7jxcRv7cH9nsnpzdnGzuRCMbk5Hh0Z8BtCppRxLf+e4L2Q+SXrrvVfdtSkIrQ8eS9jsQnkCAO5N04jHGxgtoS9KppCWv48TuSdKhpOvaeg8gWDmqOXLO48tkqwbosqsVZzyXGT73SpYWoFkyk8aHJfz3RgkQNTN17Xe40XaupkqAKMLF4bFcK4mxnFrmAHlS9ewA7LHppS4HCO2YM/b4KGlDEmm9KNhRtBzxW0krhi9iLcTzKSCU995wwK6xwRFjNwMKMJwkBiqOelvpX4sVPQWEqqLE1ogDpqCsuZLPc0kHYTIFBMXrjpLMBWZZYKbEXs71XVcCH3MpIOi1ch47TEHFc7lUlvZJTNKWBfTmYKcGqgVMD0fK0OgA/UTKkBFObjZloyvq0R37mjAiiJuRkNWEEX83lQ7TFEbyWLs6AiiCWVcH9VgD85qCHXq5AoprwRoeG9flSpDvaD+4F3s9+q9p0GDJ0xc1CvuneXMLG1Z+RZPPA5LTmR21V8esmSoyU1LqEnC6Q0RzaJ9NAdPzzOShGIOkrnBstbixPTrDRrJPntzuPSnLrUMUqYPwsyH0UFyU4WcD9Yc4No2hgJqCtBj/A6qx9Q4ukHAlgJORJAAAAABJRU5ErkJggg=="/>
-    </a>
-</header>
+    
+        <nav class="navbar navbar-expand-lg " style="background-color: rgb(1, 25, 132);">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" style="filter: contrast(0%) sepia(1) hue-rotate(0deg) saturate(0%);"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-centrar" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-nav" aria-current="page" href="../index.html" style="color: #ffffff;">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="../Registrate/registrate.html" style="color: #ffffff;">Registrate</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Tienda/tienda.html" class="nav-link text-nav" href="#" style="color: #ffffff;">Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="../La Bombonera/labombonera.html" style="color: #ffffff;">La Bombonera</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-nav" href="../Noticias/noticias.html" style="color: #ffffff;">Noticias</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>  
 
 <section class="contenedor-registro">
+    <div class="sombreado">
     <section class="contenedor-formulario">
         <form class="formulario" action="#" enctype="application/x-www-form-urlencoded" method="get">
             <div class="logo-registrate">
                 <img class="img-registrate" src="../imagenes/logo.png" alt="logo de boca">
             </div>
                 <input class="formulario-email" type="email" name="email" id="email" placeholder= "E-Mail">
-                <img class="user" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAaNJREFUWEftl/E1xEAQh7+rgA7QARWgAyqgg6MCdEAFqIASqIAOnA7owPt52Rc5m83MJLmX88y/md359pfZmdkZE7PZxHj4U0CbwBw4AnYrpV+BR+AG+IioH1XoAHgABJUzwRwDT16oCJDUeDEG2gOkmtkiQAtgyxhBvjtG3283L9ApcOsJUP065ZXJvEB3wIlp59rpHtBBTOYFUpLum3aunZ4BXQKTrT3QJXBhOmrtdA5cW9d4FdoG3qybV366ZbptJvMCaVOdVhXaYqrYZxbH5BMB0lpLcruSuS+Q1iufdPqNJQU+KxX13W1RhX4GyjVXN8gQCoWDlhYOodCgYBEgdXs11zQDtQGpy7+P2e2VpOpjqkUeUw1SD7yyLLIoJCU0jHlBluMLTENbcT7qAoqMGyUhNEmqlUixrJWAPJOh5W8kH0EdtilVAvJMhh4g+bZOkm1Aka7uhcpOAW1AY6qTwLMq5YDGyp2cgr9GkxyQepOu+SpMZaDxAMgBrSJ/0mFVLBtTwVoA6YVgfiX0/K8a9BrP7a5K3TOef/k/UJdmk1PoCwoEPyUPf8g3AAAAAElFTkSuQmCC"/>
                 <input class="formulario-contra" type="password" name="password" id="password" placeholder="Contraseña">
-                <img class="lock" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAVJJREFUWEftl+FNAzEMhb9OQDcoTECZoGwAbNANoBMAEwAbsEFhAzYANigbwAStXuVKEbqLz7lWOlXxv1MSv68vTuKOGFiMBsbDUQGdArfAJTA1p7+AD+AFWJW4X+rQHfDkCGqOwEJRAvRsznQREpDAOkcU6BpYJtm/gQdAW6XQ1un7PJlzA7x1JYoCqS4mlvwdEGBTCODKBrTm7BBA+vWflvgPUFH/tgiNrahPbPwicTHLFnEoLeScOztBnbaZfSwA1Z4bESDVxr1lfLRayQlE529zVSBvz6pDfR3SydB9oiO+j9Cd9AroUDRGbssiT0QUtvWU5oB06e0utqigN7/19s4Brb2sPccbtStQ4mp1yCux6lB1yHPAG681dPwOHfJx/WlraXJvWdqke/ZHx4vaD4kIap78OYwK/58vZ9SgKW+4QesrXrQ+0uQXCUQXDQ5oA5cjSCVYiqWCAAAAAElFTkSuQmCC"/>
             <div class="container-mostrar-contra">
                 <input type="checkbox" class="mostrar-contra" name="mostrar" id="mostrar">
                 <label class="p-mostrar-contra">Mostrar contraseña</p>
@@ -48,7 +87,9 @@
     <aside class="terminos">
         <p class="termino">Términos y Condiciones<p></p>
     </aside>
-
+</div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
