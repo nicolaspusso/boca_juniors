@@ -65,6 +65,7 @@
 }
 
 .img-inicio-tienda {
+    margin-bottom: 60px;
     height: 35%;
     width: 100%;
     cursor: pointer;
@@ -446,6 +447,7 @@ margin-top: 120px;
     padding: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
+    margin-top: 100px;
 }
 
 .logo-tienda {
@@ -574,7 +576,7 @@ margin-top: 120px;
 }
 
 .container-ubi{
-    margin: 0 20% 10% 20%;
+    margin: 50px 20% 10% 20%;
 }
 
 /* FIN  LA BOMBONERA PAGINA */
@@ -677,7 +679,7 @@ margin-top: 120px;
         grid-template-columns: repeat(3, 1fr);
     }
     .container-ubi{
-        margin: 0 10% 10% 10%;
+        margin: 50px 10% 10% 10%;
     }
     .ubi-titulo{
         font-size: 30px;
@@ -819,7 +821,7 @@ margin-top: 120px;
         width: 340px;
     }
     .container-ubi{
-        margin: 0 5% 10% 5%;
+        margin: 50px 5% 10% 5%;
     }
 }
 
@@ -837,6 +839,6 @@ margin-top: 120px;
         font-size: 18px;
     }
     .container-ubi{
-        margin: 0 5% 10% 5%;
+        margin: 50px 5% 10% 5%;
     }
 }
