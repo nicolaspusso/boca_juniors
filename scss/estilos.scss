@@ -72,6 +72,10 @@
     box-shadow: 0 0 5px rgb(141, 141, 141);
 }
 
+.img-inicio-celu{
+    display: none;
+}
+
 .img-inicio-noticias {
     margin: 70px 0 30px 0;
     height: 35%;
@@ -488,6 +492,10 @@ margin-top: 120px;
     border: 1px solid black;
 }
 
+.img-tienda-celu{
+    display: none;
+}
+
 /* FINALIZO */
 
 /* TIENDA NUEVA PRUEBA */
@@ -734,7 +742,9 @@ margin-top: 120px;
         grid-template-columns: repeat(2, 1fr);
         margin: 10px;
     }
-
+    .contenedor-registro{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -755,6 +765,18 @@ margin-top: 120px;
     }
     .ubi-titulo{
         font-size: 28px;
+    }
+    .img-inicio{
+        display: none;
+    }
+    .img-inicio-celu{
+        display: block;
+    }
+    .img-tienda{
+        display: none;
+    }
+    .img-tienda-celu{
+        display: block;
     }
 }
 
@@ -855,6 +877,16 @@ margin-top: 120px;
     }
     .container-ubi{
         margin: 50px 5% 10% 5%;
+    }
+    .contenedor-registro{
+        margin-top: 20px;
+    }
+    .img-registrate {
+        width: 90px;
+        height: 90px;
+    }
+    .logo-registrate{
+        padding: 10px;
     }
 }
 
