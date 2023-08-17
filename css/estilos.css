@@ -709,9 +709,6 @@ p, ul, h1 {
   .noticias-subtitulo {
     margin: 7% 0 7% 0;
   }
-  .p-noticiaprincipal::after {
-    content: "hola";
-  }
   .item-noticia-principal {
     width: 80%;
   }
